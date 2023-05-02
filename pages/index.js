@@ -17,10 +17,10 @@ import CheckoutPage from '@/components/pages/CheckoutPage'
 
 export default function Index() {
     const { unityContext, unityProvider, sendMessage, addEventListener, removeEventListener, isLoaded, loadingProgression } = useUnityContext({
-        loaderUrl: 'unity/Build/TheDeckModelViewer.loader.js',
-        dataUrl: 'unity/Build/TheDeckModelViewer.data',
-        frameworkUrl: 'unity/Build/TheDeckModelViewer.framework.js',
-        codeUrl: 'unity/Build/TheDeckModelViewer.wasm',
+        loaderUrl: '/unity/Build/TheDeckModelViewer.loader.js',
+        dataUrl: '/unity/Build/TheDeckModelViewer.data',
+        frameworkUrl: '/unity/Build/TheDeckModelViewer.framework.js',
+        codeUrl: '/unity/Build/TheDeckModelViewer.wasm',
     });
     const [formData, setFormData] = useState({});
     const [step, setStep] = useState(1)
