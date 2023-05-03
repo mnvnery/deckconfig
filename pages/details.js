@@ -16,7 +16,7 @@ import dynamic from 'next/dynamic'
 const UnityBuild = dynamic(
     () => import('@/components/UnityBuild'),
     { ssr: false }
-  )
+)
 
 
 export default function Details() {
