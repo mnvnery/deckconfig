@@ -91,7 +91,7 @@ export default function FabricSelect() {
         <>
         <Head>
             <title>The Deck Configurator</title>
-            <meta name="description" content="The Deck Configurator" />
+            <meta name="description" content="The Deck Configurator Fabric" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
